@@ -1,0 +1,112 @@
+body{
+    margin:0;
+    font-family:arial,Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.5;
+}
+
+/*header styles*/
+
+header{ 
+    background: #222222;;
+    color:white;
+    padding:50px 50px;
+}
+
+/*logo nest inside header*/
+
+header #page-header{
+    color:whitesmoke;
+    text-decoration: none;
+    width:49%;
+    display: inline-block
+}
+
+header img{
+    width:50px;
+    border-radius:50%;
+    margin-right:8px;
+    vertical-align:middle;
+}
+header h2{
+
+    font-size: 16px;
+}
+
+/*main navigations*/
+
+header #main-navigation {
+    width:40%;
+    display:inline-block;
+    text-align:right;
+}
+header #main-navigation ul{
+
+    list-style-type: none;
+    padding:0;
+}
+header #main-navigation ul li{
+    display:inline-block;
+    
+}
+header #main-navigation ul li a{
+    color:white;
+    text-decoration:none;
+    padding:10px 15px;
+
+}
+header #main-navigation ul li a:hover{
+    background:rgb(112, 98, 98);
+    border-radius:3px;
+    transition:0.3s ease all;
+}
+
+/*footer section*/
+footer{
+    background:#222;
+color:#777;
+padding:30px;
+text-align: center;
+}
+
+
+.hero{
+min-height:500px;
+text-align:center;
+background:#222;
+background-image:url('../images/darkgraysolid.jpeg');
+background-size:cover;
+}
+.hero-content{
+    color:#EC454B;
+    padding-top:130px;
+    line-height:1;
+}
+.hero-title{
+margin:20;
+font-size:50px;
+}
+.hero-subtitle{
+    color:#777;
+    margin:2;
+    padding: 60px;
+    font-size:0px;
+    padding:10px 15px;
+    }
+.hero-one{
+    color:#777;
+    margin:2;
+    padding: 60px;
+    font-size:20px;
+    padding:10px 15px;
+    }
+
+  
+    
+
+
+
+
+
+
+
